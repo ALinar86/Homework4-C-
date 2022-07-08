@@ -1,6 +1,6 @@
 ﻿// Вариант 1:
 
-/*int[] CreateArray(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8)
+int[] CreateArray(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8)
 
 {
     int[] array = {n1,n2,n3,n4,n5,n6,n7,n8};
@@ -42,11 +42,15 @@ int n8 = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateArray(n1, n2, n3, n4, n5, n6, n7, n8);
 
-ShowArray(myArray);*/
+ShowArray(myArray);
+
+
+
+
 
 // Вариант 2:
 
-int[] CreateArray(int size)
+/*int[] CreateArray(int size)
 {
     int[] array = new int[size];
 
@@ -69,4 +73,4 @@ void ShowArray(int[] array)
 Console.Write("Введите число элементов в массиве: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] myArray = CreateArray(size);
-ShowArray(myArray);
+ShowArray(myArray);*/
